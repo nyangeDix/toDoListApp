@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Tasker | Your ultimate planner</title>
+    <link rel="stylesheet" href="./decor/style.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <!--section one header-->
+        <div class="logo-intro">
+            <div class="logo">
+                <h1><span class="lighter-text">X</span> TASKER</h1>
+            </div>
+            <div class="timer">
+                <span class="icon timer-svg">
+                    <img src="./icons/clock.svg" alt="">
+                </span>
+               <span id="timingYear"></span>
+            </div>
+        </div>
+         <!--end of section one header-->
+        
+        <!--section two header-->
+        <div class="tagline text-center">
+            <p>- Your daily task manager -</p>
+        </div>
+        <!--section two header-->
+
+        <!--section three header-->
+        <div class="last-header text-center">
+            <input type="text" class="input-text" placeholder="Let's go ... 👊">
+            <button type="button" class="page-btn">Add new ➕</button>
+        </div>
+        <!--section three header-->
+    </header>
+
+    <section class="list-section">
+
+        <div class="list-container">
+            <!-- All listing goes in here -->
+           
+
+            <div class="listing-task listing-progress">
+                <div class="task">
+                    <span class="addedTask">
+                        <img src="./icons/circle.svg" class="icon circle" alt="Circle - new/not completed task">
+                    </span>
+                    <p>Cook some ugali</p>
+                </div>
+                <div class="delete">
+                    <img class="icon trash" src="./icons/trash.svg" alt="Delete button">
+                </div>
+            </div> 
+
+            <!-- <div class="listing-task listing-progress">
+                <div class="task">
+                    <span class="addedTask">
+                        <img src="./icons/circle.svg" class="icon circle" alt="Circle - new/not completed task">
+                    </span>
+                    <p>Cook cow meat</p>
+                </div>
+                <div class="delete">
+                    <img class="icon trash" src="./icons/trash.svg" alt="Delete button">
+                </div>
+            </div> 
+
+            <div class="listing-task listing-progress">
+                <div class="task">
+                    <span class="addedTask">
+                        <img src="./icons/circle.svg" class="icon circle" alt="Circle - new/not completed task">
+                    </span>
+                    <p>Cook goat meat</p>
+                </div>
+                <div class="delete">
+                    <img class="icon trash" src="./icons/trash.svg" alt="Delete button">
+                </div>
+            </div>  -->
+
+            <!-- End of all listing goes in here -->
+        </div>
+
+    </section>
+
+    <script src="./scripts/dateTime.js"></script>
+    <script src="./scripts/todoList.js"></script>
+</body>
+</html>
